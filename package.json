@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is the test folder",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "lite":"lite-server",
+    "test": "\"echo \\\"Error: No test specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohancs95/git-test.git"
+  },
+  "author": "Rohan Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohancs95/git-test/issues"
+  },
+  "homepage": "https://github.com/rohancs95/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
